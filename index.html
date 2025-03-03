@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxKit Widget</title>
+</head>
+<body>
+    <h1>Welcome to VoxKit Widget</h1>
+
+<!-- insert_script -->
+
+  <!-- insert_script -->
+  <script>window.VoxKitWidgetSettings = {
+    host: 'kit-im-ru.voximplant.com',
+    channel_uuid: '26419bce-153f-4e3f-9e70-8dcfb96e70bf',
+    token: '7ee4372464fdc438c9a31f512a0513cf',
+    client_data: {
+      client_id: '', // Уникальный идентификатор клиента
+      client_phone: '', // Номер телефона клиента
+      client_avatar: ''  , // Ссылка на аватар клиента
+      client_display_name: '',  // Имя клиента
+      client_email: '', // Email клиента
+      client_language: 'en' // Язык интерфейса: 'en' или 'ru'
+  }
+  };
+  </script>
+
+  <script>var l=function(){var t=function(){"object"==typeof VoxKitWidget&&"object"==typeof VoxKitWidgetSettings&&VoxKitWidget.init(VoxKitWidgetSettings)},e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://kit.voximplant.com/static/widgets/web-chat.js?"+(new Date).valueOf(),e.readyState?e.onreadystatechange=function(){"loaded"!==e.readyState&&"complete"!==e.readyState||(e.onreadystatechange=null,t())}:e.onload=function(){t()};var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)};window.attachEvent?window.attachEvent("onload",l):window.addEventListener("load",l,!1);
+  </script>
+</body>
+</html> 
